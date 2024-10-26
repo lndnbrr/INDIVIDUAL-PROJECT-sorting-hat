@@ -63,7 +63,7 @@ const submitClicked = (e) => {
   const createNewStudent = () => {
     const newStudent = {
       identificatiomNumber: allStudents.length + 1,
-      name: document.getElementById("nameOfStudent").value,
+      studentName: document.getElementById("nameOfStudent").value,
       house: assignRandomHouse(),
     };
     allStudents.push(newStudent);
